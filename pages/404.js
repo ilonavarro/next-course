@@ -1,12 +1,12 @@
 import Link from '../src/components/Link'
 
-const faq = () => {
+const Page404 = () => {
   return (
     <div>
-      <h1>Alura Cases - Faq</h1>
+      <h1>Você se perder e caiu na página 404</h1>
       <Link href='/'>Ir para a Home</Link>
     </div>
   )
 }
 
-export default faq
+export default Page404
