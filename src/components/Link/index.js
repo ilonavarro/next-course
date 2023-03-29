@@ -1,8 +1,11 @@
 import NextLink from 'next/link'
-const Link = ({ children, href, ...props }) => {
+import { Text } from '../../theme/components'
+function Link({ children, href, ...props }) {
   return (
-    <NextLink href={href} {...props}>
-      {children}
+    <NextLink href={href} passHref legacyBehavior>
+      <Text as='a' {...props}>
+        {children}
+      </Text>
     </NextLink>
   )
 }
