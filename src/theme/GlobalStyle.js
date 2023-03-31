@@ -1,5 +1,9 @@
 import { theme } from './theme'
 
+/*
+Maybe change this to tailwind?
+*/
+
 export default function GlobalStyle() {
   return (
     <style global jsx>{`
